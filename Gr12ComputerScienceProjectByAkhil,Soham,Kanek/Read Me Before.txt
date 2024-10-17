@@ -1,0 +1,87 @@
+First, make a database with the name 'summer_project' or simply use preferred name by changing the 
+value of database_name variable in run.py folder.
+
+Second, create a table named visaAPP with the following fields:
++-------------------------------------+--------------+------+-----+---------+-------+
+| Field                               | Type         | Null | Key | Default | Extra |
++-------------------------------------+--------------+------+-----+---------+-------+
+| passportType                        | varchar(30)  | NO   |     | NULL    |       |
+| nationality                         | varchar(30)  | NO   |     | NULL    |       |
+| portOfArrival                       | varchar(30)  | NO   |     | NULL    |       |
+| portOfexit                          | varchar(30)  | NO   |     | NULL    |       |
+| DOB                                 | date         | NO   |     | NULL    |       |
+| emailID                             | varchar(50)  | NO   |     | NULL    |       |
+| dateOfArrival                       | date         | NO   |     | NULL    |       |
+| surname                             | varchar(30)  | NO   |     | NULL    |       |
+| passportName                        | varchar(30)  | NO   |     | NULL    |       |
+| changedName                         | char(1)      | NO   |     | NULL    |       |
+| gender                              | char(1)      | NO   |     | NULL    |       |
+| townCityOfBirth                     | varchar(30)  | NO   |     | NULL    |       |
+| countryOfBirth                      | varchar(30)  | NO   |     | NULL    |       |
+| citizenshipOrNationalID             | varchar(30)  | NO   |     | NULL    |       |
+| relgion                             | varchar(30)  | NO   |     | NULL    |       |
+| visibleMarks                        | varchar(50)  | NO   |     | NULL    |       |
+| education                           | varchar(40)  | NO   |     | NULL    |       |
+| nationalityByBirthOrNaturalization  | char(1)      | NO   |     | NULL    |       |
+| Livedfor2yinCountry                 | char(1)      | NO   |     | NULL    |       |
+| passportNo                          | char(15)     | NO   |     | NULL    |       |
+| placeOfIssue                        | varchar(30)  | NO   |     | NULL    |       |
+| dateOfIssue                         | date         | NO   |     | NULL    |       |
+| dateOfExpire                        | date         | NO   |     | NULL    |       |
+| houseNo                             | varchar(30)  | NO   |     | NULL    |       |
+| villageTownCity                     | varchar(30)  | NO   |     | NULL    |       |
+| country                             | varchar(30)  | NO   |     | NULL    |       |
+| state                               | varchar(30)  | NO   |     | NULL    |       |
+| postalOrZip                         | varchar(15)  | NO   |     | NULL    |       |
+| countryCode1                        | varchar(5)   | NO   |     | NULL    |       |
+| phoneNo                             | int          | NO   |     | NULL    |       |
+| CountryCode2                        | varchar(5)   | NO   |     | NULL    |       |
+| mobileNo                            | int          | NO   |     | NULL    |       |
+| permHouseAddress                    | varchar(100) | NO   |     | NULL    |       |
+| permVillageTownCity                 | varchar(30)  | NO   |     | NULL    |       |
+| permState                           | varchar(30)  | NO   |     | NULL    |       |
+| fatherName                          | varchar(30)  | NO   |     | NULL    |       |
+| fatherNationality                   | varchar(30)  | NO   |     | NULL    |       |
+| fatherFormerNationality             | varchar(30)  | NO   |     | NULL    |       |
+| fatherPOB                           | varchar(30)  | NO   |     | NULL    |       |
+| fatherCountryOfBirth                | varchar(30)  | NO   |     | NULL    |       |
+| motherName                          | varchar(30)  | NO   |     | NULL    |       |
+| motherNationality                   | varchar(30)  | NO   |     | NULL    |       |
+| motherFormerNationality             | varchar(30)  | NO   |     | NULL    |       |
+| motherPOB                           | varchar(30)  | NO   |     | NULL    |       |
+| motherCountryofBirth                | varchar(30)  | NO   |     | NULL    |       |
+| maritialStatus                      | varchar(15)  | NO   |     | NULL    |       |
+| pakistaniParentsGrandparents        | char(1)      | NO   |     | NULL    |       |
+| pakistaniParentsGrandparentsDetails | varchar(30)  | NO   |     | NULL    |       |
+| placesvisited                       | varchar(70)  | NO   |     | NULL    |       |
+| bookedRoom                          | char(1)      | NO   |     | NULL    |       |
+| visaDurationinDays                  | int          | NO   |     | NULL    |       |
+| visitedIndiaBefore                  | char(1)      | NO   |     | NULL    |       |
+| prevVisaCities                      | varchar(30)  | NO   |     | NULL    |       |
+| prevVisaNo                          | varchar(30)  | NO   |     | NULL    |       |
+| prevVisaType                        | varchar(30)  | NO   |     | NULL    |       |
+| prevVisaPlaceOfIssue                | varchar(30)  | NO   |     | NULL    |       |
+| prevVisadateOfIssue                 | date         | NO   |     | NULL    |       |
+| prevPermissionVisa                  | char(1)      | NO   |     | NULL    |       |
+| prevWhoReject                       | varchar(30)  | NO   |     | NULL    |       |
+| countriesVisitedLast10yrs           | varchar(100) | NO   |     | NULL    |       |
+| vistedSAARC                         | char(1)      | NO   |     | NULL    |       |
+| refNameInd                          | varchar(30)  | NO   |     | NULL    |       |
+| refAddressInd                       | varchar(100) | NO   |     | NULL    |       |
+| refcountryCodeInd                   | varchar(5)   | NO   |     | NULL    |       |
+| refPhoneInd                         | varchar(30)  | NO   |     | NULL    |       |
+| refNameHomeCountry                  | varchar(30)  | NO   |     | NULL    |       |
+| refaddressHomeCountry               | varchar(100) | NO   |     | NULL    |       |
+| refPhoneHomeCountryCountryCode      | char(5)      | NO   |     | NULL    |       |
+| refPhoneHomeCountry                 | int          | NO   |     | NULL    |       |
+| q1                                  | char(1)      | NO   |     | NULL    |       |
+| q2                                  | char(1)      | NO   |     | NULL    |       |
+| q3                                  | char(1)      | NO   |     | NULL    |       |
+| q4                                  | char(1)      | NO   |     | NULL    |       |
+| q5                                  | char(1)      | NO   |     | NULL    |       |
+| q6                                  | char(1)      | NO   |     | NULL    |       |
++-------------------------------------+--------------+------+-----+---------+-------+
+or simply, copy the command in the tablecommand.txt file and paste in MySQL command line client.
+
+To Start the program run the run.py file.
+
