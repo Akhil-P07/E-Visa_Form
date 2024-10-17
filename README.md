@@ -1,3 +1,3 @@
-1.set database in run.py file
-
-2.execute run.py
+1.create database
+2. ejter database name in database_name variable
+3.execute run.py
